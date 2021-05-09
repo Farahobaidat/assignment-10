@@ -1,4 +1,5 @@
 let arr=['f',15,0,-9,'f','p',5,7,'p','p',3,4,8,'f','f'];
+function Arra(ar){
 let count=0, times=1,frequent;
 for(let i=0;i<arr.length;i++){
     for(let j=i;j<arr.length;j++){
@@ -14,3 +15,5 @@ for(let i=0;i<arr.length;i++){
     count=0;
  } 
 alert(frequent);
+}
+Arra(arr);
